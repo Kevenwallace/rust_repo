@@ -1,5 +1,6 @@
 use std::io;
 
+#[allow(dead_code)]
 pub fn produto_simples() {
     //Exercicio 1004
 

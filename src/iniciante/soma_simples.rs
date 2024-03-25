@@ -1,5 +1,6 @@
 use std::io;
 
+#[allow(dead_code)]
 pub fn soma_simples(){
     //Exerceicio 1003
 

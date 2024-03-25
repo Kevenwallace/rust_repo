@@ -2,6 +2,7 @@ use std::io;
 
 static PI:f64 = 3.14159;
 
+#[allow(dead_code)]
 pub fn area_do_circulo (){
 
     let mut raio: String = String::new();

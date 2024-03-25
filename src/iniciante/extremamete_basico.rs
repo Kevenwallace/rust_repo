@@ -1,5 +1,6 @@
 use std::io;
 
+#[allow(dead_code)]
 pub fn extremamente_basico() {
     //Exercicio 1001
     

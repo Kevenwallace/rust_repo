@@ -1,5 +1,6 @@
 use std::io;
 
+#[allow(dead_code)]
 pub fn media1(){
     //Exercicio 1005
     let mut number_a:String = String::new();
