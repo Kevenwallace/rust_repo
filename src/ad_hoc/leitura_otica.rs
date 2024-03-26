@@ -27,7 +27,18 @@ pub fn leitura_otica(){
                         array_de_notas.push(cor_notas);},
                 Err(_) => {println!("error"); return;}}
         }
-        texto.push("valores".into());
+        let mut count:i8 = 1;
+        for notas in &array_de_notas {
+            for nota in notas {
+            if *nota < 127i16 {println!("{}", match count {
+                1 => 'A',
+                2 => 'B',
+                3 => 'C',
+                4 => 'D',
+                _ => "error"});
+            }
+            }
+        }
     };
     for i in &texto {
         println!("{}", i)
