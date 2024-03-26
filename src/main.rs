@@ -10,6 +10,7 @@ mod iniciante  {
 }
 
 
+
 #[allow(unused_imports)]
 use iniciante::{
     extremamete_basico::extremamente_basico,
@@ -23,19 +24,16 @@ use iniciante::{
 };
 mod ad_hoc {
     pub mod divisao_nlogonia;
+    pub mod leitura_otica;
 }
 
 #[allow(unused_imports)]
-use ad_hoc::
-    divisao_nlogonia::divisao_nlogonia;
+use ad_hoc::{
+    divisao_nlogonia::divisao_nlogonia,
+    leitura_otica::leitura_otica
+};
 
 fn main() {
-    // funcao();
-    // extremamente_basico();
-    // area_do_circulo();
-    // produto_simples();
-    // media1()
-    // media_2()
-    // diferenca()
-    divisao_nlogonia()
+    leitura_otica()
+    // divisao_nlogonia()
 }
