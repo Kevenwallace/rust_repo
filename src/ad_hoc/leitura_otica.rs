@@ -4,7 +4,7 @@ use std::io;
 pub fn leitura_otica(){
     //Exercicio 1129
     let mut entrada_int:i8;
-    let mut texto:Vec<&str> = Vec::new();
+    let mut texto:Vec<char> = Vec::new();
     loop {
         let mut entrada:String = String::new();
 
@@ -27,16 +27,30 @@ pub fn leitura_otica(){
                         array_de_notas.push(cor_notas);},
                 Err(_) => {println!("error"); return;}}
         }
-        let mut count:i8 = 1;
+        let mut count:i8;
+        let mut chat:char;
         for notas in &array_de_notas {
+            count = 1;
+            chat  = ' ';
             for nota in notas {
-            if *nota < 127i16 {println!("{}", match count {
-                1 => 'A',
-                2 => 'B',
-                3 => 'C',
-                4 => 'D',
-                _ => "error"});
-            }
+                if *nota <= 127 {
+                    if chat.is_whitespace() {
+                        chat =  match count {
+                            1 => 'A',
+                            2 => 'B',
+                            3 => 'C',
+                            4 => 'D',
+                            5 => 'E',
+                            _ => '*'};
+                            texto.push(chat);
+                            continue;
+                    }
+                    texto.pop();
+                    texto.push('*');
+                    continue;
+                }
+                if chat.is_whitespace() && count == 5 {texto.push('*')}
+                count+=1;
             }
         }
     };
