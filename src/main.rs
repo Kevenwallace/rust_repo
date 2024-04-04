@@ -25,15 +25,18 @@ use iniciante::{
 mod ad_hoc {
     pub mod divisao_nlogonia;
     pub mod leitura_otica;
+    pub mod media_e_mediana;
 }
 
 #[allow(unused_imports)]
 use ad_hoc::{
     divisao_nlogonia::divisao_nlogonia,
-    leitura_otica::leitura_otica
+    leitura_otica::leitura_otica,
+    media_e_mediana::media_e_mediana
 };
 
 fn main() {
-    leitura_otica()
+    // leitura_otica()
     // divisao_nlogonia()
+    media_e_mediana()
 }
