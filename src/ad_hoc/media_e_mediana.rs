@@ -1,5 +1,6 @@
 use std::io::{self, BufRead};
 
+#[allow(dead_code)]
 pub fn media_e_mediana (){
     //Exercicio 1379
     let stdin = io::stdin();
