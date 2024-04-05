@@ -27,6 +27,7 @@ mod ad_hoc {
     pub mod leitura_otica;
     pub mod media_e_mediana;
     pub mod og;
+    pub mod jogo_do_maior;
 }
 
 #[allow(unused_imports)]
@@ -34,9 +35,11 @@ use ad_hoc::{
     divisao_nlogonia::divisao_nlogonia,
     leitura_otica::leitura_otica,
     media_e_mediana::media_e_mediana,
-    og::og
+    og::og,
+    jogo_do_maior::jogo_do_maior,
+    
 };
 
 fn main() {
-    og()
+
 }
