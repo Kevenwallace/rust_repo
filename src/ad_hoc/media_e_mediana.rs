@@ -17,7 +17,7 @@ pub fn media_e_mediana (){
 
             if valores.len() < 2 {
                 println!("Erro: Pelo menos dois valores inteiros são necessários");
-                return; // Retorna imediatamente se não houver valores suficientes
+                return;
             }
 
             let value_a:Option<i64> = Some(valores[0]);
