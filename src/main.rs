@@ -41,5 +41,5 @@ use ad_hoc::{
 };
 
 fn main() {
-
+jogo_do_maior()
 }
