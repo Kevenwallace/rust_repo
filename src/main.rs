@@ -29,6 +29,7 @@ mod ad_hoc {
     pub mod og;
     pub mod jogo_do_maior;
     pub mod procurando_nessy;
+    pub mod hello_galaxy;
 }
 
 #[allow(unused_imports)]
@@ -38,9 +39,10 @@ use ad_hoc::{
     media_e_mediana::media_e_mediana,
     og::og,
     jogo_do_maior::jogo_do_maior,
-    procurando_nessy::procurando_nessy
+    procurando_nessy::procurando_nessy,
+    hello_galaxy::hello_galaxy,
 };
 
 fn main() {
-    procurando_nessy()
+    hello_galaxy()
 }
