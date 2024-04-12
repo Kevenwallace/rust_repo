@@ -1,5 +1,6 @@
 use std::io;
 
+#[allow(dead_code)]
 pub fn jogo_do_maior() {
     // exercicio 1397
     let mut qtd_entrada_int:i8;
