@@ -1,7 +1,7 @@
 use std::io;
 
 pub fn jogo_do_maior() {
-
+    // exercicio 1397
     let mut qtd_entrada_int:i8;
     let mut pontos:Vec<[i8;2]> = Vec::new();
     loop {
@@ -12,9 +12,7 @@ pub fn jogo_do_maior() {
                 Ok(num) => num,
                 Err(_)=> {println!("erro"); return;}}},
             Err(_) => {println!("erro"); return;}
-            
         }
-        
         let mut pontos_left:i8 = 0;
         let mut pontos_rigth:i8 = 0;
     
@@ -39,5 +37,5 @@ pub fn jogo_do_maior() {
         }
         pontos.push([pontos_left, pontos_rigth])    
     }
-    println!("{:?}", pontos)
+    for ponto in pontos {println!("{} {}", ponto[0], ponto[1])}
 }
