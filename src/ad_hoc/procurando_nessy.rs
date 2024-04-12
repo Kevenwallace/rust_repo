@@ -1,5 +1,5 @@
 use std::io;
-
+#[allow(dead_code)]
 pub fn procurando_nessy() {
     // Exercicio 1428
     let mut numero_entradas:String = String::new();
