@@ -1,6 +1,7 @@
 use std::io;
 use std::collections::HashMap;
 
+#[allow(dead_code)]
 pub fn hello_galaxy() {
     //Exercicio 1515
     let mut resultado = Vec::new();

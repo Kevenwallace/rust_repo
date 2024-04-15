@@ -30,6 +30,7 @@ mod ad_hoc {
     pub mod jogo_do_maior;
     pub mod procurando_nessy;
     pub mod hello_galaxy;
+    pub mod feed_back;
 }
 
 #[allow(unused_imports)]
@@ -41,8 +42,9 @@ use ad_hoc::{
     jogo_do_maior::jogo_do_maior,
     procurando_nessy::procurando_nessy,
     hello_galaxy::hello_galaxy,
+    feed_back::feed_back,
 };
 
 fn main() {
-    hello_galaxy()
+    feed_back()
 }
