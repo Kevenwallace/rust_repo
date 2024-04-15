@@ -31,6 +31,7 @@ mod ad_hoc {
     pub mod procurando_nessy;
     pub mod hello_galaxy;
     pub mod feed_back;
+    pub mod fabrica_de_chocolate;
 }
 
 #[allow(unused_imports)]
@@ -43,8 +44,9 @@ use ad_hoc::{
     procurando_nessy::procurando_nessy,
     hello_galaxy::hello_galaxy,
     feed_back::feed_back,
+    fabrica_de_chocolate::fabrica_de_chocolate,
 };
 
 fn main() {
-    feed_back()
+    fabrica_de_chocolate()
 }

@@ -1,6 +1,8 @@
 use std::io;
 
+#[allow(dead_code)]
 pub fn feed_back() {
+    //Exercicio 1546
     let qtd_feedbacks_int:i32;
     let mut qtd_feedbacks:String = String::new();
     let mut resultado:Vec<&str> = Vec::new();
