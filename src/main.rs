@@ -32,6 +32,7 @@ mod ad_hoc {
     pub mod hello_galaxy;
     pub mod feed_back;
     pub mod fabrica_de_chocolate;
+    pub mod maquina_de_verificaca_automatizada;
 }
 
 #[allow(unused_imports)]
@@ -45,8 +46,9 @@ use ad_hoc::{
     hello_galaxy::hello_galaxy,
     feed_back::feed_back,
     fabrica_de_chocolate::fabrica_de_chocolate,
+    maquina_de_verificaca_automatizada::maquina_de_verificaca_automatizada,
 };
 
 fn main() {
-    fabrica_de_chocolate()
+    maquina_de_verificaca_automatizada()
 }

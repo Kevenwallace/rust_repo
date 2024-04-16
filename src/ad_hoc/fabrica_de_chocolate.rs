@@ -1,5 +1,6 @@
 use std::io;
 
+#[allow(dead_code)]
 pub fn fabrica_de_chocolate () {
     //Exercicio 1573
     let mut aresta_cubo: Vec<i64> = Vec::new();
