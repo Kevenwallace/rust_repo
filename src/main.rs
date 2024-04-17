@@ -33,6 +33,7 @@ mod ad_hoc {
     pub mod feed_back;
     pub mod fabrica_de_chocolate;
     pub mod maquina_de_verificaca_automatizada;
+    pub mod escada_rolante;
 }
 
 #[allow(unused_imports)]
@@ -47,8 +48,9 @@ use ad_hoc::{
     feed_back::feed_back,
     fabrica_de_chocolate::fabrica_de_chocolate,
     maquina_de_verificaca_automatizada::maquina_de_verificaca_automatizada,
+    escada_rolante::escada_rolante,
 };
 
 fn main() {
-    maquina_de_verificaca_automatizada()
+    escada_rolante()
 }

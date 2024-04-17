@@ -1,6 +1,6 @@
 use std::io;
 
-
+#[allow(dead_code)]
 pub fn maquina_de_verificaca_automatizada() {
     // Exercicio 1743
     let mut entrada_1:String = String::new();
