@@ -1,5 +1,6 @@
 use std::io;
 
+#[allow(dead_code)]
 pub fn escada_rolante (){
     //Exercicio 1793
     let mut resultado:Vec<i16> = Vec::new();

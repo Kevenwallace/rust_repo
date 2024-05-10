@@ -34,6 +34,7 @@ mod ad_hoc {
     pub mod fabrica_de_chocolate;
     pub mod maquina_de_verificaca_automatizada;
     pub mod escada_rolante;
+    pub mod lavanderia;
 }
 
 #[allow(unused_imports)]
@@ -49,8 +50,9 @@ use ad_hoc::{
     fabrica_de_chocolate::fabrica_de_chocolate,
     maquina_de_verificaca_automatizada::maquina_de_verificaca_automatizada,
     escada_rolante::escada_rolante,
+    lavanderia::lavadeira,
 };
 
 fn main() {
-    escada_rolante()
+    lavadeira()
 }
