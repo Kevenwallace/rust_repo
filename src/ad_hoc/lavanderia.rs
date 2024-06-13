@@ -1,5 +1,6 @@
 use std::io;
 
+#[allow(dead_code)]
 pub fn lavadeira () {
     //Exercicio 1794 
     let mut qtd_roupas:String = String::new();
