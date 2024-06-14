@@ -37,6 +37,7 @@ mod ad_hoc {
     pub mod lavanderia;
     pub mod fatorial;
     pub mod top_n;
+    pub mod perdido_em_marte;
 }
 
 #[allow(unused_imports)]
@@ -54,9 +55,10 @@ use ad_hoc::{
     escada_rolante::escada_rolante,
     lavanderia::lavadeira,
     fatorial::fatorial,
-    top_n::top_n
+    top_n::top_n,
+    perdido_em_marte::perdido_marte,
 };
 
 fn main() {
-    top_n()
+    perdido_marte()
 }

@@ -1,5 +1,5 @@
 use std::io;
-
+#[allow(dead_code)]
 pub fn top_n() {
     let mut entrada:String = String::new();
     io::stdin().read_line(&mut entrada).expect("msg");
