@@ -36,6 +36,7 @@ mod ad_hoc {
     pub mod escada_rolante;
     pub mod lavanderia;
     pub mod fatorial;
+    pub mod top_n;
 }
 
 #[allow(unused_imports)]
@@ -52,9 +53,10 @@ use ad_hoc::{
     maquina_de_verificaca_automatizada::maquina_de_verificaca_automatizada,
     escada_rolante::escada_rolante,
     lavanderia::lavadeira,
-    fatorial::fatorial
+    fatorial::fatorial,
+    top_n::top_n
 };
 
 fn main() {
-    fatorial()
+    top_n()
 }
